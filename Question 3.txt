@@ -1,0 +1,9 @@
+
+SELECT ID, Name, Marks,
+
+CASE
+WHEN Marks>90 THEN 'A+'
+WHEN Marks>70 THEN 'A'
+WHEN Marks>50 THEN 'B'
+WHEN Marks>=40 THEN 'C'
+WHEN Marks<40 THEN 'Fail'
